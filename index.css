@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(233, 231, 227);
+}
+
+h1, h2, h3{   
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin-top: 10px;
+}
+ form{
+     background-image: url("hatter.png");
+     background-repeat: no-repeat;
+     background-position: left 230px top;
+ }
+ h1{
+     font-size: 2.3em;
+ }
+ h2{
+     font-size: 1.7em;
+ }
+ h3{
+     font-size: 1.5em;
+ }
+ nav{
+     border-radius: 15px;
+ }
+ p, ul{
+     text-align: left;
+ }
+
+ @media print{
+     nav{
+         display: none;
+     }
+     h1{
+         display:none;
+     }
+     .navbar{
+         display: none;
+     }
+     
+ }
+ @page {
+    size: auto;
+    margin: 6px;
+}
+
+a:visited {
+    color:rgb(231, 75, 47);
+}
+
+figcaption{
+    font-variant: small-caps;
+    font-size: 0.9em;
+    margin:auto;
+    text-align: center;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin: auto;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 40px;
+}
